@@ -2,14 +2,15 @@
 
   <PropertyGroup>
 	  <TargetFramework>netstandard2.1</TargetFramework>
+	  <Version>1.0.1</Version>
+	  <Copyright>Apaceh 2.0</Copyright>
+	  <PackageProjectUrl>https://github.com/zengande/phoenix-net</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/zengande/phoenix-net</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.17.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Apache.Phoenix\Apache.Phoenix.csproj" />
   </ItemGroup>
 
 </Project>
